@@ -53,6 +53,19 @@ def remove_duplicates(records):
 
     return unique_records
 
+def load_clean_data(path):
+    subjects = ["math", "physics", "english"]
+
+    records = load_data(path)
+
+    for sub in subjects:
+        records = fill_missing(records, sub)
+        
+    records = remove_bad_records(records)
+    records = remove_duplicates(records)
+
+    return records
+
 if __name__ == "__main__":
     records = load_data("data/students.csv")
     records = fill_missing(records, "physics")
