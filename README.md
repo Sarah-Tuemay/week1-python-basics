@@ -21,7 +21,7 @@ This project demonstrates how to load, clean, and analyze student grade data usi
 ##  Project Structure
 
 ```text
-week1-deliverable/
+week1-python-basics/
 ├── data/
 │   └── students.csv       # Raw dataset with deliberate dirty data
 ├── data_loader.py         # Data loading and cleaning functions
@@ -43,11 +43,9 @@ week1-deliverable/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repository-url>
+git clone [week1-python-basics](https://github.com/Sarah-Tuemay/week1-python-basics)
 cd week1-deliverable
 ```
-
-Replace `<your-repository-url>` with your actual GitHub repository URL.
 
 ### 2. Create a virtual environment
 
